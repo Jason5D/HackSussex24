@@ -14,7 +14,7 @@ const results = await openai.chat.completions.create({
     {
       role: 'user',
       content:
-        'Hi! Can you tell wme what the best way to learn how to learn maths?',
+        'Hi! Can you tell wme what the best way to learn how to learn spanish?',
     },
   ],
 })
