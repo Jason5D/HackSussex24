@@ -28,6 +28,7 @@ app.post('/', async (req, res) => {
       ],
       model: 'gpt-3.5-turbo',
     })
+    console.log('Response from OpenAI:', completion.choices[0].messages)
 
     if (completion.choices && completion.choices.length > 0) {
       const responseText = completion.choices[0].text
